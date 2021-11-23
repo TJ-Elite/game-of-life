@@ -3,6 +3,7 @@
 #ifndef GAME_OF_LIFE
 #define GAME_OF_LIFE
 
+#include <cstdint>
 #include <vector>
 
 namespace GameOfLife

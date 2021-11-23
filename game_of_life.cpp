@@ -10,7 +10,7 @@
 #if defined(_WIN32) || defined(WIN32) || defined(__MINGW32__) || defined(__BORLANDC__)
 #define OS_WIN
 
-#elif defined(linux) || defined(__CYGWIN__)
+#elif defined(__linux) || defined(__CYGWIN__)
 #define OS_LINUX
 
 #elif (defined(__APPLE__) || defined(__OSX__) || defined(__MACOS__)) && defined(__MACH__)
